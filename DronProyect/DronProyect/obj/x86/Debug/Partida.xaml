@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="DronProyect.Partida"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DronProyect"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="9*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="9*"/>
+        </Grid.ColumnDefinitions>
+
+        <Image Grid.RowSpan="2" Grid.ColumnSpan="2" Source="Assets\fondo2.png" Stretch="Fill"/>
+        
+        <Image Source="Assets\boton.png" Stretch="Fill" Margin="15"/>
+        <Button x:ConnectionId='2' HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                    Opacity="0" />
+    </Grid>
+</Page>
+

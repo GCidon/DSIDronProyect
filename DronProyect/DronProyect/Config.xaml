@@ -1,0 +1,80 @@
+﻿<Page
+    x:Class="DronProyect.Config"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DronProyect"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="9*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="9*"/>
+        </Grid.ColumnDefinitions>
+
+        <Image Grid.ColumnSpan="2" Grid.RowSpan="2" Source="Assets\fondo2.png" Stretch="Fill"/>
+
+        <Grid Grid.Column="1" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="3*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+
+            <Image Grid.Row="1" Source="Assets\boton.png" Stretch="Fill" Margin="15"/>
+            <Button Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="mandoButton" Opacity="0" />
+            <Image Grid.Row="2" Source="Assets\boton.png" Stretch="Fill" Margin="15"/>
+            <Button Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="tecladoButton" Opacity="0" />
+            <Image Grid.Row="3" Source="Assets\boton.png" Stretch="Fill" Margin="15"/>
+            <Button Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="hudButton" Opacity="0" />
+
+            <Grid Grid.Row="1" Grid.Column="1" Grid.RowSpan="4">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="4*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="4*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image Name="mando" Source="Assets\configMando.png" Stretch="Fill" Opacity="0"/>
+                <Image Name="teclado" Source="Assets\configTeclado.png" Stretch="Fill" Opacity="0"/>
+                <Image Name="hudImage" Source="Assets\boton2.png" Stretch="Fill" Opacity="0"/>
+
+
+                <StackPanel Name="hud" Opacity="0" Margin="50">
+
+                    <TextBlock Text="Tamaño del HUD:"/>
+                    <Slider x:Name="slider1" Minimum="0" Maximum="100" Value="50"/>
+
+                    <TextBlock Text="Opacidad del HUD:" Margin="0,50,0,0"/>
+                    <Slider x:Name="slider2" Minimum="0" Maximum="100" Value="50"/>
+
+                    <TextBlock Text="Sensibilidad de la mira:" Margin="0,50,0,0"/>
+                    <Slider x:Name="slider4" Minimum="0" Maximum="100" Value="50"/>
+                    
+                </StackPanel>
+
+            </Grid>
+
+        </Grid>
+
+        <Image Source="Assets\boton.png" Stretch="Fill" Margin="15"/>
+        <Button HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="backtoMain" Opacity="0" />
+    </Grid>
+</Page>
