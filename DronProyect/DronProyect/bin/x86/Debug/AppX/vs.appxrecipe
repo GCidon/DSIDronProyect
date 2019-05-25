@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>e642413c-bb86-436c-852e-bd37e33c04d4</PackageIdentityName>
     <PackageIdentityPublisher>CN=mxddx</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\mxddx\source\repos\DronProyect\DronProyect\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\mxddx\source\repos\DronProyect\DronProyect\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>38AA778C88F1059E874D8FAFE79925E41EC93517079D341D70FA96C51CCAE26B</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>e642413c-bb86-436c-852e-bd37e33c04d4_1.0.0.0_x86__r3wb2s9agedcp</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>e642413c-bb86-436c-852e-bd37e33c04d4_r3wb2s9agedcp!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-24T16:01:40.735</Modified>
+      <Modified>2019-05-25T11:15:02.650</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\bin\x86\Debug\DronProyect.exe">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\bin\x86\Debug\DronProyect.exe">
       <PackagePath>entrypoint\DronProyect.exe</PackagePath>
-      <Modified>2019-05-24T16:01:40.064</Modified>
+      <Modified>2019-05-25T11:15:01.522</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -498,131 +498,131 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2018-10-23T00:33:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\Assets\boton.png">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\boton.png">
       <PackagePath>Assets\boton.png</PackagePath>
       <Modified>2019-05-23T19:40:21.903</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\Assets\boton2.png">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\boton2.png">
       <PackagePath>Assets\boton2.png</PackagePath>
       <Modified>2019-05-24T08:31:40.044</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\Assets\botonConfig.png">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\botonConfig.png">
       <PackagePath>Assets\botonConfig.png</PackagePath>
       <Modified>2019-05-23T19:44:45.156</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\Assets\botonDron.png">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\botonDron.png">
       <PackagePath>Assets\botonDron.png</PackagePath>
       <Modified>2019-05-23T19:44:10.074</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\Assets\botonPartida.png">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\botonPartida.png">
       <PackagePath>Assets\botonPartida.png</PackagePath>
       <Modified>2019-05-23T19:43:22.454</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\Assets\configMando.png">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\configMando.png">
       <PackagePath>Assets\configMando.png</PackagePath>
       <Modified>2019-05-24T07:53:46.579</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\Assets\configTeclado.png">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\configTeclado.png">
       <PackagePath>Assets\configTeclado.png</PackagePath>
       <Modified>2019-05-24T08:01:04.565</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\Assets\Drones\1.png">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\Drones\1.png">
       <PackagePath>Assets\Drones\1.png</PackagePath>
       <Modified>2019-05-24T12:32:25.887</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\Assets\Drones\2.png">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\Drones\2.png">
       <PackagePath>Assets\Drones\2.png</PackagePath>
       <Modified>2019-05-24T12:20:46.280</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\Assets\Drones\3.png">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\Drones\3.png">
       <PackagePath>Assets\Drones\3.png</PackagePath>
       <Modified>2019-05-24T12:20:54.798</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\Assets\Drones\4.png">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\Drones\4.png">
       <PackagePath>Assets\Drones\4.png</PackagePath>
       <Modified>2019-05-24T12:21:05.159</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\Assets\fondo.png">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\fondo.png">
       <PackagePath>Assets\fondo.png</PackagePath>
       <Modified>2019-05-23T16:15:46.344</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\Assets\fondo2.png">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\fondo2.png">
       <PackagePath>Assets\fondo2.png</PackagePath>
       <Modified>2019-05-23T16:09:02.414</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2019-02-21T11:46:48.001</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-02-21T11:46:48.001</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-02-21T11:46:48.001</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-02-21T11:46:48.001</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-02-21T11:46:48.001</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-02-21T11:46:48.001</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-02-21T11:46:48.001</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2019-05-22T15:15:19.096</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\bin\x86\Debug\DronProyect.xr.xml">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\bin\x86\Debug\DronProyect.xr.xml">
       <PackagePath>DronProyect.xr.xml</PackagePath>
-      <Modified>2019-05-24T16:01:39.714</Modified>
+      <Modified>2019-05-25T11:15:01.208</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-05-24T16:01:39.758</Modified>
+      <Modified>2019-05-25T11:15:01.247</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\bin\x86\Debug\Config.xbf">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\bin\x86\Debug\Config.xbf">
       <PackagePath>Config.xbf</PackagePath>
-      <Modified>2019-05-24T16:01:39.759</Modified>
+      <Modified>2019-05-25T11:15:01.248</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\bin\x86\Debug\Dron.xbf">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\bin\x86\Debug\Dron.xbf">
       <PackagePath>Dron.xbf</PackagePath>
-      <Modified>2019-05-24T16:01:39.760</Modified>
+      <Modified>2019-05-25T11:15:01.248</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-05-24T16:01:39.761</Modified>
+      <Modified>2019-05-25T11:15:01.249</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\bin\x86\Debug\Partida.xbf">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\bin\x86\Debug\Partida.xbf">
       <PackagePath>Partida.xbf</PackagePath>
-      <Modified>2019-05-24T16:01:39.762</Modified>
+      <Modified>2019-05-25T11:15:01.249</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2018-10-22T23:44:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-05-24T15:58:38.143</Modified>
+      <Modified>2019-05-24T17:02:52.216</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\source\repos\DronProyect\DronProyect\bin\x86\Debug\Core\DronProyect.exe">
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\bin\x86\Debug\Core\DronProyect.exe">
       <PackagePath>DronProyect.exe</PackagePath>
-      <Modified>2019-05-24T16:01:40.690</Modified>
+      <Modified>2019-05-25T11:15:02.594</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

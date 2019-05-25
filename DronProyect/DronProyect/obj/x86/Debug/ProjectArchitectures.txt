@@ -1,1 +1,1 @@
-C:\Users\mxddx\source\repos\DronProyect\DronProyect\DronProyect.csproj;x86
+C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\DronProyect.csproj;x86

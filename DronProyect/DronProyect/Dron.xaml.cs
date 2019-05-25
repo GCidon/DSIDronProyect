@@ -35,6 +35,7 @@ namespace DronProyect
     public sealed partial class Dron : Page
     {
         public ObservableCollection<DronClass> ListaDrones { get; } = new ObservableCollection<DronClass>();
+        protected int cont = 0;
 
         public Dron()
         {
@@ -49,16 +50,45 @@ namespace DronProyect
                 {   //Mi lista de Drones para el LisView
                     ListaDrones.Add(item);
                     Image img = new Image();
-                    string s = Directory.GetCurrentDirectory() + "\\" + item.Imagen;
+                    string s = Directory.GetCurrentDirectory() + "\\Assets\\Drones\\" + item.Id + ".png";
                     img.Source = new BitmapImage(new Uri(s));
-                    img.Width = 50; img.Height = 50;
+                    img.Height = 50;
+                    img.Width = 50;
                     item.Img = img;
                 }
+
+            asignaDron();
+
+            base.OnNavigatedTo(eventArgs);
         }
 
         private void backtoMain(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage));
+        }
+
+        private void prevDron(object sender, RoutedEventArgs e)
+        {
+            if (cont > 0) cont--;
+            else cont = 3;
+            asignaDron();
+        }
+
+        private void nextDron(object sender, RoutedEventArgs e)
+        {
+            if (cont < 3) cont++;
+            else cont = 0;
+            asignaDron();
+        }
+
+        private void asignaDron()
+        {
+            fotoDron.Source = ListaDrones[cont].Img.Source;
+            textDron.Text = ListaDrones[cont].Explicacion;
+            nameDron.Text = ListaDrones[cont].Nombre;
+            attackDron.Text = ListaDrones[cont].Attack;
+            defenseDron.Text = ListaDrones[cont].Defense;
+            speedDron.Text = ListaDrones[cont].Speed;
         }
     }
 }

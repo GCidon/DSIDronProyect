@@ -27915,11 +27915,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mxddx\\source\\repos\\DronProyect\\DronProyect\\DronProyect.csproj",
+      "projectUniqueName": "C:\\Users\\mxddx\\Desktop\\DSIDronProyect\\DronProyect\\DronProyect\\DronProyect.csproj",
       "projectName": "DronProyect",
-      "projectPath": "C:\\Users\\mxddx\\source\\repos\\DronProyect\\DronProyect\\DronProyect.csproj",
+      "projectPath": "C:\\Users\\mxddx\\Desktop\\DSIDronProyect\\DronProyect\\DronProyect\\DronProyect.csproj",
       "packagesPath": "C:\\Users\\mxddx\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mxddx\\source\\repos\\DronProyect\\DronProyect\\obj\\",
+      "outputPath": "C:\\Users\\mxddx\\Desktop\\DSIDronProyect\\DronProyect\\DronProyect\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
