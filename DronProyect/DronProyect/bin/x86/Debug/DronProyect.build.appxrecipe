@@ -475,9 +475,6 @@
     <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\bin\x86\Debug\Mapa.xbf">
-      <PackagePath>Mapa.xbf</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\bin\x86\Debug\Partida.xbf">
       <PackagePath>Partida.xbf</PackagePath>
     </AppxPackagedFile>

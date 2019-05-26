@@ -1,0 +1,40 @@
+Documento de Interfaz de Usuario
+Menús e interfaz de Drone Proyect
+
+Gonzalo Cidoncha Pérez
+Alberto Ibort Zocar
+
+Descripción del juego
+
+Drone Proyect es un videojuego First Person Shooter, inspirado en el control por Realidad Aumentada de un dron real. 
+El objetivo de cada partida es recorrer una zona eliminando a todos los enemigos que se encuentran en ella, recorriendo dicha zona pantalla por pantalla. El jugador controlará un supuesto dron de combate, aunque sólo podrá dirigir el movimiento hacia delante y la mira del arma integrada.
+Todos los controles, tanto del juego como de los menús anteriores a la partida, están pensados para mando y para teclado y ratón, aunque para este prototipo de interfaz sólo será necesario el teclado y el ratón.
+
+Análisis de usuario
+
+El usuario 
+
+Menús
+
+En esta aplicación hay tres menús: el principal, el de configuración, y el de elección de dron. Además, hay implementada una interfaz de partida, aunque casi con ninguna funcionalidad.
+El menú principal sirve de puente entre las otras tres pantallas, y es el menú al que se accede al salir de cualquiera de los tres. El menú de configuración servirá para dar información al usuario de los controles posibles del juego, además de poder configurar cómo se verá el HUD dentro del mismo. En el menú de Dron, el jugador podrá elegir entre los cuatro drones disponibles, cada uno con unas características diferentes.
+Ahora explicaremos el diseño de cada uno de ellos.
+
+
+Menú principal
+
+Este menú es el primero que ve el usuario al iniciar la aplicación. En él se pueden ver tres botones sobre una fondo con el nombre del juego. Este menú es el mejor ejemplo de la potencialidad real de los botones presentes en todos los menús del juego. 
+
+Sobre el mismo fondo se van a situar los diferentes elementos del menú. Todos tienen la misma base, un rectángulo de color azul, sin embargo, la claridad del rectángulo indica la potencialidad de interacción del usuario con los mismos. Los rectángulos más claros pueden ser activados con un click, realizando la acción de llevarte a otra página o de hacer aparecer otra ventana. En este caso, cada uno de los botones llevan a la pantalla que indica el texto sobre ellas. 
+Gracias al color y al degradado del color del rectángulo, los botones tienen un toque de efecto tridimensional que se hace asemejarse a un botón real, pero sin perder el diseño plano futurista del juego y del resto de menús. Al haber una gran contraste entre los botones y dicha estética, queda bastante claro que los rectángulos azul claro son los únicos objetos interactuables.
+
+
+
+
+Menú de configuración
+
+
+Tanto en este menú como en el de Dron, encontramos un botón de “Volver” en la esquina superior izquierda. Como bien indica, al hacer click, el usuario volverá al menú de inicio.
+En el centro de la pantalla, al llegar a este 
+
+

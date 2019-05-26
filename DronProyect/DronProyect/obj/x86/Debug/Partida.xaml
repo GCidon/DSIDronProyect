@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="DronProyect.Partida"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DronProyect"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Image x:ConnectionId='2' Name="fondo" Source="Assets\\street.jpg" Grid.ColumnSpan="3" Grid.RowSpan="3" Stretch="Fill"/>
+        
+        <Image Source="Assets\\vidadron.png"/>
+        <Image Grid.Row="2" Source="Assets\\minimap.png" Stretch="Fill" Margin="30"/>
+        <Image Grid.Column="2" Source="Assets\\bullets.png"/>
+
+        <TextBlock Grid.Column="1" Text="Pulsa Arriba para continuar" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="40"/>
+        <TextBlock Grid.Column="1" Text="Pulsa Esc para salir" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"/>
+
+    </Grid>
+</Page>
+

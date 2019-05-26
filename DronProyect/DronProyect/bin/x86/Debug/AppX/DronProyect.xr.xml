@@ -67,7 +67,6 @@
     <RootType FullName="DronProyect.Config" />
     <RootType FullName="DronProyect.Dron" />
     <RootType FullName="DronProyect.MainPage" />
-    <RootType FullName="DronProyect.Mapa" />
     <RootType FullName="DronProyect.Partida" />
   </Roots.RootTypes>
 </Roots>
