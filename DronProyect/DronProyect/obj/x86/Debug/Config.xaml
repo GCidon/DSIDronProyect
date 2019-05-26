@@ -74,7 +74,7 @@
 
         </Grid>
 
-        <Image Source="Assets\boton.png" Stretch="Fill" Margin="15"/>
+        <Image Source="Assets\botonvolver.png" Stretch="Fill" Margin="15"/>
         <Button x:ConnectionId='2' HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                    Opacity="0" />
     </Grid>
 </Page>

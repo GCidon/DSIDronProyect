@@ -388,6 +388,12 @@
     <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\botonPartida.png">
       <PackagePath>Assets\botonPartida.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\botonvolver.png">
+      <PackagePath>Assets\botonvolver.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\bullets.png">
+      <PackagePath>Assets\bullets.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\configMando.png">
       <PackagePath>Assets\configMando.png</PackagePath>
     </AppxPackagedFile>
@@ -411,6 +417,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\fondo2.png">
       <PackagePath>Assets\fondo2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\minimap.png">
+      <PackagePath>Assets\minimap.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\vidadron.png">
+      <PackagePath>Assets\vidadron.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -438,6 +450,12 @@
     <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\street.jpg">
+      <PackagePath>Assets\street.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Assets\street2.jpg">
+      <PackagePath>Assets\street2.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mxddx\Desktop\DSIDronProyect\DronProyect\DronProyect\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>

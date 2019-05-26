@@ -146,6 +146,8 @@
     <Content Include="Assets\botonConfig.png" />
     <Content Include="Assets\botonDron.png" />
     <Content Include="Assets\botonPartida.png" />
+    <Content Include="Assets\botonvolver.png" />
+    <Content Include="Assets\bullets.png" />
     <Content Include="Assets\configMando.png" />
     <Content Include="Assets\configTeclado.png" />
     <Content Include="Assets\Drones\1.png" />
@@ -154,6 +156,10 @@
     <Content Include="Assets\Drones\4.png" />
     <Content Include="Assets\fondo.png" />
     <Content Include="Assets\fondo2.png" />
+    <Content Include="Assets\minimap.png" />
+    <Content Include="Assets\street.jpg" />
+    <Content Include="Assets\street2.jpg" />
+    <Content Include="Assets\vidadron.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

@@ -11,18 +11,22 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="9*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="9*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <Image Grid.RowSpan="2" Grid.ColumnSpan="2" Source="Assets\fondo2.png" Stretch="Fill"/>
+        <Image x:ConnectionId='2' Name="fondo" Source="Assets\\street.jpg" Grid.ColumnSpan="3" Grid.RowSpan="3" Stretch="Fill"/>
         
-        <Image Source="Assets\boton.png" Stretch="Fill" Margin="15"/>
-        <Button x:ConnectionId='2' HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                    Opacity="0" />
+        <Image Source="Assets\\vidadron.png"/>
+        <Image Grid.Row="2" Source="Assets\\minimap.png" Stretch="Fill" Margin="30"/>
+        <Image Grid.Column="2" Source="Assets\\bullets.png"/>
+
     </Grid>
 </Page>
 
