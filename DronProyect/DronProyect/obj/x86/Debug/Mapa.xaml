@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="DronProyect.Partida"
+    x:Class="DronProyect.Mapa"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:DronProyect"
@@ -11,21 +11,18 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="2*"/>
+            <RowDefinition Height="9*"/>
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="9*"/>
         </Grid.ColumnDefinitions>
 
-        <Image x:ConnectionId='2' Name="fondo" Source="Assets\\street.jpg" Grid.ColumnSpan="3" Grid.RowSpan="3" Stretch="Fill"/>
-        
-        <Image Source="Assets\\vidadron.png"/>
-        <Image Grid.Row="2" Source="Assets\\minimap.png" Stretch="Fill" Margin="30"/>
-        <Image Grid.Column="2" Source="Assets\\bullets.png"/>
+        <Image Grid.ColumnSpan="2" Grid.RowSpan="2" Source="Assets\fondo2.png" Stretch="Fill"/>
+
+        <Image Source="Assets\botonvolver.png" Stretch="Fill" Margin="15"/>
+        <Button x:ConnectionId='2' HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                    Opacity="0" />
 
     </Grid>
 </Page>

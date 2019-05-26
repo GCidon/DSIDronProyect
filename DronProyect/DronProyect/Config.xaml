@@ -36,10 +36,15 @@
             </Grid.ColumnDefinitions>
 
             <Image Grid.Row="1" Source="Assets\boton.png" Stretch="Fill" Margin="15"/>
+            <TextBlock Text="Mando" FontSize="45" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" />
             <Button Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="mandoButton" Opacity="0" />
+            
             <Image Grid.Row="2" Source="Assets\boton.png" Stretch="Fill" Margin="15"/>
+            <TextBlock Text="Teclado" FontSize="45" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" />
             <Button Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="tecladoButton" Opacity="0" />
+            
             <Image Grid.Row="3" Source="Assets\boton.png" Stretch="Fill" Margin="15"/>
+            <TextBlock Text="HUD" FontSize="45" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" />
             <Button Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="hudButton" Opacity="0" />
 
             <Grid Grid.Row="1" Grid.Column="1" Grid.RowSpan="4">
